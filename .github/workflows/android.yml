@@ -1,6 +1,7 @@
 name: build aviator scanner apk  
 
-on: Workflow_dispatch:
+on:
+ Workflow_dispatch:
   push:
     branches: [ "main" ]
   pull_request:
